@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: 'Infra';
+}
+
+body{
+    background-color: #EDEDED;
+}
+
+.title{
+    padding-top: 30px;
+    font-size : 25px;
+    text-align: center;
+}
+
+.App{
+    padding-left: 40px;
+    padding-right: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.scorecard-container{
+    flex: 1;
+    text-align: center;
+}
+
+.scorecard{
+    /* border: 2px solid black; */
+    padding: 10px;
+    font-size: 20px;
+}
+
+.scores{
+    font-size: 100px;
+    font-weight: bold;
+}
+.PlayingSpace{
+    flex:3;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.Computer-space{
+    transform: rotate(-90deg) scaleX(-1);
+}
+
+.Player-space{
+    transform: rotate(90deg);
+}
+
+.Player-options{
+    padding-left: 50vb;
+    padding-right: 50vb;
+    display: flex;
+    justify-content: space-around;
+}
+
+.Option-button{
+    border: 2px solid black;
+    background-color:#D9D9D9;
+    border-radius: 50px;
+    width: 170px;
+}
+
+.Option-button:hover{
+    background-color: black;
+    color: #D9D9D9;
+}
+
+.Reset{
+    align-items: center;
+    background-color: #414141;
+    color: #FFFFFF;
+    text-align: center;
+    border-radius: 8px;
+    width: 120px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5vh;
+    display: block;
+}
+
+.Reset:hover{
+    background-color: #D9D9D9;
+    color: #414141;
+}
